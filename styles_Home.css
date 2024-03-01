@@ -1,0 +1,195 @@
+body {
+    background-image: url("Background.jpg");
+}
+
+.Navigation_bar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 4px;
+
+}
+
+.NB {
+    font-family: monospace;
+    display: inline;
+    float: left;
+}
+
+.Space {
+    display: block;
+    padding: 8px;
+}
+
+.Home {
+    display: block;
+}
+
+.Homee {
+    position: relative;
+}
+
+.Homee:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: darkgoldenrod;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.Homee:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.Me {
+    display: block;
+}
+
+.Mee {
+    position: relative;
+}
+
+.Mee:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: darkgoldenrod;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.Mee:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.Games {
+    display: block;
+}
+
+.Gamess {
+    position: relative;
+}
+
+.Gamess:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: darkgoldenrod;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.Achieve {
+    display: block;
+}
+
+.Achievee {
+    position: relative;
+}
+
+.Achievee:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: darkgoldenrod;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.Achievee:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+.Gamess:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+main {
+    background-color: darkblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 700px;
+    height: 500px;
+    border-radius: 10%;
+    border: 5px solid darkgoldenrod;
+    padding: 50px;
+}
+.avatar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.name {
+    color: DarkGoldenRod;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.story {
+    color: SlateGrey;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 90px;
+    font-size: 20px;
+    font-style: italic;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.social_media {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 100px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 20px;
+}
+.facebook {
+    float:left;
+    padding: 25px;
+    padding-left: 35px;
+}
+.instagram {
+    float:left;
+    padding: 25px;
+    padding-left: 50px;
+}
+.youtube {
+    float:left;
+    padding: 25px;
+    padding-left: 60px;
+}
+.discord {
+    float:left;
+    padding: 25px;
+    padding-left: 40px;
+}
